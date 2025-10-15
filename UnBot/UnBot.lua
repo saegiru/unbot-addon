@@ -136,7 +136,7 @@ function CommandButton_OnEnter(self,index,btnType)
 	GameTooltip:SetOwner(self, "ANCHOR_TOPRIGHT");
 	GameTooltip:AddLine(UnBotTooltipTitle[index],1,0,0,1);
 	GameTooltip:AddDoubleLine("Target Type:",GetCommandTypeTextByType(UnBotCommandType[index]),0,0,1,1,0,1);
-	GameTooltip:AddLine(UnBotTooltipHelp[index],0,1,0,1);
+	GameTooltip:AddLine(UnBotTooltipHelp[index],1,0.8,0,1);
 	GameTooltip:AddLine(" ",1,1,1,1);
 	if (self.groupIndex > 0) then
 		GameTooltip:AddDoubleLine("Execute Command:",UnBotExecuteCommand[index],0,0.85,0.85,0,0.85,0.85);

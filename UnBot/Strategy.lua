@@ -34,7 +34,7 @@ local function CreateStrategyFrame(name)
 	end
 
 	strategyFrame.title = strategyFrame:CreateFontString(strategyFrame:GetName().."Title","ARTWORK");
-	strategyFrame.title:SetFont([[Fonts\ZYHei.ttf]],24);
+	strategyFrame.title:SetFont("Fonts\\FRIZQT__.TTF",24);
 	strategyFrame.title:SetTextColor(1,0,1,1);
 	strategyFrame.title:SetText("|cff00ffff"..name.."|r".." Strategy Editor");
 	strategyFrame.title:SetPoint("TOP",strategyFrame,"TOP",0,5);
@@ -42,7 +42,7 @@ local function CreateStrategyFrame(name)
 	strategyFrame.title:SetShadowOffset(1,-1);
 
 	strategyFrame.leftText = strategyFrame:CreateFontString(strategyFrame:GetName().."LeftText","ARTWORK");
-	strategyFrame.leftText:SetFont([[Fonts\ZYHei.ttf]],24);
+	strategyFrame.leftText:SetFont("Fonts\\FRIZQT__.TTF",24);
 	strategyFrame.leftText:SetTextColor(1,0,0,1);
 	strategyFrame.leftText:SetText("Combat Strategy");
 	strategyFrame.leftText:SetPoint("CENTER",strategyFrame,"TOPLEFT",80,-52);
@@ -50,8 +50,8 @@ local function CreateStrategyFrame(name)
 	strategyFrame.leftText:SetShadowOffset(1,-1);
 
 	strategyFrame.rightText = strategyFrame:CreateFontString(strategyFrame:GetName().."RightText","ARTWORK");
-	strategyFrame.rightText:SetFont([[Fonts\ZYHei.ttf]],24);
-	strategyFrame.rightText:SetTextColor(0,1,0,1);
+	strategyFrame.rightText:SetFont("Fonts\\FRIZQT__.TTF",24);
+	strategyFrame.rightText:SetTextColor(1,0.8,0,1);
 	strategyFrame.rightText:SetText("Non-Combat Strategy");
 	strategyFrame.rightText:SetPoint("CENTER",strategyFrame,"TOPRIGHT",-85,-52);
 	strategyFrame.rightText:SetShadowColor(0,0,0);
@@ -227,7 +227,7 @@ function StrategyOption_OnEnter(btn, name, use, strategyType, data)
 	else
 		GameTooltip:AddLine(" Inactive",1,0,0,1);
 	end
-	GameTooltip:AddLine(data[3],0,1,0,1);
+	GameTooltip:AddLine(data[3],1,0.8,0,1);
 	GameTooltip:AddLine("Some strategies are ineffective for certain classes and will be rejected by bots even if activated. Some strategies are mutually exclusive.",1,0.5,0,1);
 	GameTooltip:AddLine(" ",1,1,1,1);
 	GameTooltip:AddDoubleLine(" Execute Command:",data[1],0,0.85,0.85,0,0.85,0.85);

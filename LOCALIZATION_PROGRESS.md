@@ -1,4 +1,4 @@
-# UnBot Addon English Localization Progress - COMPLETED ✅
+# UnBot Addon English Localization Progress - FULLY COMPLETED ✅
 
 ## Successfully Completed Files ✅
 
@@ -47,6 +47,23 @@
 - ✅ Translated quest completion interface
 - ✅ Updated reward selection messages
 - ✅ Translated tooltip instructions
+
+### 10. StrategyTips.lua ⭐ **CRITICAL FIX**
+- ✅ **This was the main cause of display issues!**
+- ✅ Completely translated all 43 combat strategy descriptions
+- ✅ Completely translated all 14 non-combat strategy descriptions
+- ✅ All strategy tooltips now display in proper English
+
+### 11. ImplantInspectFrame.lua
+- ✅ Translated equipment inspection interface messages
+- ✅ Updated help text for equipment slots
+
+### 12. Bindings.lua
+- ✅ Translated all key binding descriptions
+- ✅ Updated binding header and action button names
+
+### 13. QuestRewardFrame.xml
+- ✅ Translated quest reward interface title
 
 ## Key Translation Accomplishments 🎯
 

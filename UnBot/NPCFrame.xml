@@ -38,7 +38,7 @@
           </Anchors>
           <TexCoords left="0.2" right="0.8" top="0" bottom="0.6" />
         </Texture>
-        <FontString name="$parentTitleString" font="Fonts\ZYHei.TTF" text="机器人指定职业上线">
+        <FontString name="$parentTitleString" font="Fonts\ZYHei.TTF" text="Summon Bot by Class">
           <Size>
             <AbsDimension x="200" y="1" />
           </Size>
@@ -91,7 +91,7 @@
         </Anchors>
         <Scripts>
 		  <OnEnter>
-			NPCCommand_OnEnter(self,1,"召唤战士BOT","战士",".playerbot bot addclass warrior");
+			NPCCommand_OnEnter(self,1,"Summon Warrior Bot","Warrior",".playerbot bot addclass warrior");
 		  </OnEnter>
 		  <OnLeave>
 			GameTooltip:Hide();
@@ -130,7 +130,7 @@
         </Anchors>
         <Scripts>
 		  <OnEnter>
-			NPCCommand_OnEnter(self,1,"召唤法师BOT","法师",".playerbot bot addclass mage");
+			NPCCommand_OnEnter(self,1,"Summon Mage Bot","Mage",".playerbot bot addclass mage");
 		  </OnEnter>
 		  <OnLeave>
 			GameTooltip:Hide();
@@ -169,7 +169,7 @@
         </Anchors>
         <Scripts>
 		  <OnEnter>
-			NPCCommand_OnEnter(self,1,"召唤盗贼BOT","盗贼",".playerbot bot addclass rogue");
+			NPCCommand_OnEnter(self,1,"Summon Rogue Bot","Rogue",".playerbot bot addclass rogue");
 		  </OnEnter>
 		  <OnLeave>
 			GameTooltip:Hide();
@@ -208,7 +208,7 @@
         </Anchors>
         <Scripts>
 		  <OnEnter>
-			NPCCommand_OnEnter(self,1,"召唤德鲁伊BOT","德鲁伊",".playerbot bot addclass druid");
+			NPCCommand_OnEnter(self,1,"Summon Druid Bot","Druid",".playerbot bot addclass druid");
 		  </OnEnter>
 		  <OnLeave>
 			GameTooltip:Hide();
@@ -247,7 +247,7 @@
         </Anchors>
         <Scripts>
 		  <OnEnter>
-			NPCCommand_OnEnter(self,1,"召唤猎人BOT","猎人",".playerbot bot addclass hunter");
+			NPCCommand_OnEnter(self,1,"Summon Hunter Bot","Hunter",".playerbot bot addclass hunter");
 		  </OnEnter>
 		  <OnLeave>
 			GameTooltip:Hide();
@@ -286,7 +286,7 @@
         </Anchors>
         <Scripts>
 		  <OnEnter>
-			NPCCommand_OnEnter(self,1,"召唤萨满BOT","萨满",".playerbot bot addclass shaman");
+			NPCCommand_OnEnter(self,1,"Summon Shaman Bot","Shaman",".playerbot bot addclass shaman");
 		  </OnEnter>
 		  <OnLeave>
 			GameTooltip:Hide();
@@ -325,7 +325,7 @@
         </Anchors>
         <Scripts>
 		  <OnEnter>
-			NPCCommand_OnEnter(self,1,"召唤牧师BOT","牧师",".playerbot bot addclass priest");
+			NPCCommand_OnEnter(self,1,"Summon Priest Bot","Priest",".playerbot bot addclass priest");
 		  </OnEnter>
 		  <OnLeave>
 			GameTooltip:Hide();
@@ -364,7 +364,7 @@
         </Anchors>
         <Scripts>
 		  <OnEnter>
-			NPCCommand_OnEnter(self,1,"召唤术士BOT","术士",".playerbot bot addclass warlock");
+			NPCCommand_OnEnter(self,1,"Summon Warlock Bot","Warlock",".playerbot bot addclass warlock");
 		  </OnEnter>
 		  <OnLeave>
 			GameTooltip:Hide();
@@ -403,7 +403,7 @@
         </Anchors>
         <Scripts>
 		  <OnEnter>
-			NPCCommand_OnEnter(self,1,"召唤圣骑士BOT","圣骑士",".playerbot bot addclass paladin");
+			NPCCommand_OnEnter(self,1,"Summon Paladin Bot","Paladin",".playerbot bot addclass paladin");
 		  </OnEnter>
 		  <OnLeave>
 			GameTooltip:Hide();
@@ -442,7 +442,7 @@
         </Anchors>
         <Scripts>
 		  <OnEnter>
-			NPCCommand_OnEnter(self,1,"召唤死亡骑士BOT","死亡骑士",".playerbot bot addclass dk");
+			NPCCommand_OnEnter(self,1,"Summon Death Knight Bot","Death Knight",".playerbot bot addclass dk");
 		  </OnEnter>
 		  <OnLeave>
 			GameTooltip:Hide();
