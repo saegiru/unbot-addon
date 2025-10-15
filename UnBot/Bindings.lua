@@ -1,5 +1,5 @@
 ﻿--=============================================================================
--- 大脚动作条按键绑定
+-- UnBot action bar key bindings
 --=============================================================================
 -- NULL_FUNCTION = function() end
 BINDING_HEADER_UnBotFrame = "|cff0000ffUnBot Controller Bar|r";

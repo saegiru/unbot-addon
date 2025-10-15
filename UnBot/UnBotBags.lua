@@ -522,22 +522,22 @@ function GetItemFunc(bagsFrame, index)
 end
 
 function IsFilterInfo(info)
-	local f1,f2 = string.find(info,"装备");
+	local f1,f2 = string.find(info,"Equip");
 	if (f1 ~= nil or f2 ~= nil) then
 		return true;
 	end
 
-	f1,f2 = string.find(info,"摧毁");
+	f1,f2 = string.find(info,"Destroy");
 	if (f1 ~= nil or f2 ~= nil) then
 		return true;
 	end
 
-	f1,f2 = string.find(info,"出售");
+	f1,f2 = string.find(info,"Sell");
 	if (f1 ~= nil or f2 ~= nil) then
 		return true;
 	end
 
-	f1,f2 = string.find(info,"使用");
+	f1,f2 = string.find(info,"Use");
 	if (f1 ~= nil or f2 ~= nil) then
 		return true;
 	end
